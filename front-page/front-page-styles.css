@@ -1,0 +1,144 @@
+/* body {
+  background-color: black;
+  font-size: 18px;
+  color: #FFFFFF;
+  backgrounds-size: cover;
+  text-align: center;
+  text-decoration: none;
+} */
+
+body {
+  background-image: url(front-page-imgs/gensaw-rd.png);
+  font-size: 18px;
+  color: #FFFFFF;
+  backgrounds-size: cover;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* body {
+            background-image: url(front-page-imgs/mt-collage.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100vh;
+            padding: 40vh;
+            animation: fade 5s alternate 1s ease-out backwards;
+         } */
+
+p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  transition: 0.9s;
+  /* width: 100%; */
+  display: block;
+  margin: 6rem 6rem 10rem 6rem;
+  padding: 6rem 0 6rem 0;
+
+}
+
+p:hover, p:active {
+   color: black;
+   background-color: white;
+   text-decoration: none;
+   /* background-color: white; */
+
+}
+
+a {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  /* border: 2px solid #FFFFFF; */
+  transition: 0.9s;
+  /* padding: 50px; */
+  /* width: 100%; */
+  display: block;
+  margin: 3rem 0 3rem 0;
+}
+
+/* .links:hover, .links:active {
+  color: black;
+   background-color: white;
+   text-decoration: none;
+} */
+
+#front-link {
+    width: 20em;
+
+.my-links.hover, .my-links.active {
+   color: #ba422d;
+   background-color: white;
+   text-decoration: none;
+}
+
+p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  transition: 0.9s;
+  /* width: 100%; */
+  display: block;
+  margin: 6rem 6rem 10rem 6rem;
+  padding: 6rem 0 6rem 0;
+
+}
+
+#translate {
+  color: black;
+  /* position: relative; */
+  margin-top: -18rem;
+  overflow: hidden;
+  font-size: 6rem;
+
+}
+
+.eng:hover {
+           opacity: 0;
+         }
+
+/* .smbtn {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2rem;
+  text-align: center center;
+  color: #FFFFFF;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  transition: 0.9s;
+  width: 100%;
+  display: block;
+} */
+
+
+/* #icons {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+
+}
+
+#icons:hover, #icons:active {
+  color: #4267B2;
+  text-decoration: none;
+
+
+} */

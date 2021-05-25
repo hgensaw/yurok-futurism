@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Raleway+Dots');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Roboto&display=swap');
+
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Cormorant', serif;
+  background-color: black;
+  font-size: 20px;
+  color: #bababa;
+  margin: 0;
+  /* backgrounds-size: cover; */
+  /* animation: fade 5s alternate 1s ease-out backwards; */
+}
+
+/* h1 {
+  display: inline-block;
+  width: 80%;
+} */
+
+.main {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #a13241;
+  margin-top: 3rem;
+  text-decoration-line: overline;
+  padding-top: 3rem:
+  /* max-width: 65%;
+  height: auto;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  right: 0;
+  padding: 6px 8px 6px 16px;
+  text-decoration-line: overline;
+  display: inline-block; */
+}
+
+.words {
+  display: block;
+  text-align: left;  /* padding-top: 3rem: */
+  top: 0;
+}
+
+p {
+
+  /* height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block; */
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 3rem;
+
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+/* .main {
+  font-size: 1rem;
+  padding: 0px 10px;
+  display: inline-block;
+  width: 80%;
+} */
+
+/* .description {
+  font-size: 1.5rem;
+  font-weight: 300;
+  height: auto;
+  padding-top: 1rem;
+  display: inline-block;
+  text-align: right;
+} */
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  /* right: inherit;
+  padding: inherit; */
+  padding-top: 2rem;
+  display: block;
+  left: 0;
+  /* animation: slide 3s reverse ease-in, invisible 4s; */
+  /* margin: 20%; */
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  z-index: 2;
+
+
+  /* font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 20px; */
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #a13241;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #a13241;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .main {
+  padding-top: 60px;
+}
+
+
+/* @keyframes slide {
+  0%   { right: 0; }
+  100% { right: 50vw; }
+} */

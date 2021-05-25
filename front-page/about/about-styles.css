@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Raleway+Dots');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Roboto&display=swap');
+
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Cormorant', serif;
+  /* background-color: black; */
+  font-size: 20px;
+  color: black;
+  /* backgrounds-size: cover; */
+  /* animation: fade 5s alternate 1s ease-out backwards; */
+}
+
+img {
+  max-width: 65%;
+  height: auto;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  padding: inherit;
+  padding-top: 2rem;
+  display: block;
+  /* animation: slide 3s reverse ease-in, invisible 4s; */
+  /* margin: 20%; */
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #a13241;
+  max-width: 65%;
+  height: auto;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  right: 0;
+  padding: 6px 8px 6px 16px;
+  /* border: 2px solid black; */
+  text-decoration-line: overline;
+}
+
+p {
+  max-width: 65%;
+  height: auto;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  padding: inherit;
+  padding-top: 3rem;
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  /* animation: slide 3s reverse ease-in, invisible 4s; */
+  /* margin: 20%; */
+}
+
+
+
+.sidenav {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #a13241;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 1rem; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 300;
+  max-width: 65%;
+  height: auto;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  padding: inherit;
+  padding-top: 1rem;
+  display: block;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 30%;
+}
+
+/* @keyframes slide {
+  0%   { right: 0; }
+  100% { right: 50vw; }
+} */

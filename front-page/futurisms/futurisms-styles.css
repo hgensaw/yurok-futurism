@@ -1,0 +1,46 @@
+#carousel-inner {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#carousel-inner img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}
+
+body {
+  text-size: 20px;
+  background-size: cover;
+}
+
+p {
+  position: fixed;
+  text-align: center;
+  font-size: 3rem;
+  color: #FFFFFF;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  right: 40%;
+  margin-top: 50vh;
+  max-width: 65%;
+  height: auto;
+  padding: 3rem;
+  border: 2px solid white;
+
+}
+
+/* p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  transition: 0.9s;
+  padding: 50px;
+} */

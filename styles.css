@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Raleway+Dots');
+
+body {
+  background-image: url(front-page/enter/enter-imgs/river-cycle.png);
+  background-color: black;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-size: cover;
+  /* animation: fade 5s alternate 1s ease-out backwards; */
+}
+
+
+a {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  transition: 0.9s;
+  padding: 50px;
+}
+
+a {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+/* #front-link {
+    width: 20em;
+    align-items: center;
+} */
+/* .links:link, .links:visited {
+   font-family: 'Alegreya Sans SC', sans-serif;
+   font-family: 'Raleway', sans-serif; */
+   /* font-size: 1rem; */
+   /* display: block; */
+   /* padding: 250px;
+   text-align: center;
+   text-decoration: none;
+   padding-left: none; */
+   /* margin-left: -2rem; */
+   /* transition: 0.9s;
+
+ } */
+
+
+ .links:hover, .links:active {
+   color: black;
+    background-color: white;
+    text-decoration: none;
+ }
+
+.title {
+            background-image: url(imgs/river_perspective_dia.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100vh;
+            padding: 40vh;
+            animation: fade 5s alternate 1s ease-out backwards;
+         }
+
+
+
+/* #titletwo {
+                     background-color: black;
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     background-position: center center;
+                     width: 100%;
+                     height: 100vh;
+                     z-index: 2;
+                     opacity: 0.4;
+                  } */
+
+
+
+.eng:hover {
+           opacity: 0;
+         }
+
+
+@keyframes fade {
+  0% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+}
